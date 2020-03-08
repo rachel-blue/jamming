@@ -1,10 +1,14 @@
-import React from "react";
+import React from 'react';
+import TrackList from '../TrackList/TrackList';
+import './PlayList.css';
 
 function PlayList() {
   return (
-    <>
-      <h2>Play List</h2>
-    </>
+    <div className="Playlist">
+      <input defaultValue={'New Playlist'}/>
+      <TrackList />
+      <button className="Playlist-save">SAVE TO SPOTIFY</button>
+    </div>
   );
 }
 
