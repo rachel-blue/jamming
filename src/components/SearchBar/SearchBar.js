@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
+import './SearchBar.css';
 
 function SearchBar() {
   return (
-    <>
-      <h2>Search Bar</h2>
-    </>
+    <div className="SearchBar">
+      <input placeholder="Enter A Song, Album, or Artist"/>
+      <button className="SearchButton">SEARCH</button>
+    </div>
   );
 }
 
