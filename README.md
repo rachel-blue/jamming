@@ -26,7 +26,7 @@ The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `Create a Build`
-Run `npm run build` to build the project for produciton. The build artifacts will be stored
+Run `npm run build` to build the project for production. The build artifacts will be stored
 in the `build/` directory. 
 
 ### `Deploy to GitHub Pages`
@@ -41,3 +41,9 @@ If deploying to a different location the redirectUri will need to be updated acc
 ## Project Notes
 ### `With more time`
 With more time I would have preferred to make the layout more mobile friendly. 
+
+
+## Spotify API
+if you intend to run this project you will likely want your own API account. 
+Create an account [here](https://developer.spotify.com/dashboard/) and be sure to check out
+ their [Authorization Guide](https://developer.spotify.com/documentation/general/guides/authorization-guide/).
