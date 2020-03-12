@@ -10,8 +10,6 @@ class PlayList extends React.Component {
 
   handleNameChange(event) {
     this.props.onNameChange(event.target.value);
-    // test later. atm it's breaking when edited. (not good)
-    // event.preventDefault();
   };
 
   render() {
